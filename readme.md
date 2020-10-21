@@ -1,5 +1,5 @@
-##Calculate Possible moves for given Icon
-####Its Kotlin Project (Build it using build.gradle)
+## Calculate Possible moves for given Icon
+#### Its Kotlin Project (Build it using build.gradle)
 
 
 - Here Pieces are King, Queen, Bishop, Horse, Rook and Pawn
