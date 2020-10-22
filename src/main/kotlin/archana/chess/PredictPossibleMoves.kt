@@ -21,7 +21,7 @@ object PredictPossibleMoves {
             possibleMoves.fold({ fault ->
                 println(fault.message)
             }, { moves ->
-                (0..7).forEach { row->
+                (7 downTo 0).forEach { row->
                     println()
                     (0..7).forEach{ col ->
                         House.instanceOf(col, row).map {
